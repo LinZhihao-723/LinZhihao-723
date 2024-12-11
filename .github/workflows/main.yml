@@ -29,6 +29,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, JavaScript, Ruby, Ada
           plugin_languages_indepth: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_recent_days: 30
           plugin_lines: yes
           plugin_habits: yes
           plugin_habits_charts: yes
