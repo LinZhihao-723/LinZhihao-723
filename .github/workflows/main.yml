@@ -22,7 +22,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_animations: yes
           config_timezone: America/New_York
-          plugin_achievements: yes
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year         
@@ -32,12 +31,9 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_recent_days: 30
           plugin_lines: yes
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 900
+          plugin_habits: no
           plugin_calendar: yes
           plugin_calendar_limit: 3
           plugin_notable: yes
           plugin_notable_from: organization
+          plugin_traffic: yes
